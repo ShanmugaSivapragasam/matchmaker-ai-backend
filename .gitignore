@@ -22,3 +22,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Gradle project files
+.gradle/
+build/
+
+# Exclude temporary files and logs
+*.log
+*.iml
+
+# Exclude generated files
+out/
+target/
+build/
+
+# macOS system files
+.DS_Store
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.bak
